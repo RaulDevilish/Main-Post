@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/index.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="header-container">
+            <div class="header_logo">
+                <a href="../layout/index.html"><img src="../images/logo.svg" alt="logo"></a>
+            </div>
+            <nav class="header_navbar">
+                <ul>
+                    <li class="header_navbar__item">
+                        <a href="#">Новости</a>
+                    </li>
+                    <li class="header_navbar__item">
+                        <a href="#">Статьи</a>
+                    </li>
+                    <li class="header_navbar__item">
+                        <a href="#">Подкасты</a>
+                    </li>
+                    <li class="header_navbar__item">
+                        <a href="#">Тесты</a>
+                    </li>
+                    <li class="header_navbar__item">
+                        <a href="#">Видео</a>
+                    </li>
+                    <li class="header_navbar__item uzb">
+                        <a href="#">O`zbekcha</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header_links">
+                <ul>
+                    <li class="header_link__item">
+                        <a href="#"><img src="../images/ic_telegram.svg" alt="telegram"></a>
+                    </li>
+                    <li class="header_link__item">
+                        <a href="#"><img src="../images/ic_facebook.svg" alt="face"></a>
+                    </li>
+                    <li class="header_link__item">
+                        <a href="#"><img src="../images//ic_instagram.svg" alt="insta"></a>
+                    </li>
+                    <li class="header_link__item">
+                        <a href="#"><img src="../images/ic_youtube.svg" alt="utube"></a>
+                    </li>
+                    <li class="header_link__item">
+                        <a href="#"><img src="../images/ic_vkontakte.svg" alt="vk"></a>
+                    </li>
+                    <li class="header_link__item">
+                        <a href="#"><img src="../images/ic_tik-tok.svg" alt="tiktok"></a>
+                    </li>
+                </ul>
+            </div>
+            <div
+                id="myNav" class="overlay">
+
+                <!-- Button to close the overlay navigation -->
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+                <!-- Overlay content -->
+                <div class="overlay-content">
+                    <a href="#">Новости</a>
+                    <a href="#">Статьи</a>
+                    <a href="#">Подкасты</a>
+                    <a href="#">Видео</a>
+                </div>
+
+            </div>
+
+            <!-- Use any element to open/show the overlay navigation menu -->
+            <span onclick="openNav()"><img class="burg" src="../images/6351903_burger_list_menu_navigation_icon.svg" alt="da"></span>
+        </div>
+    </header>
+
+    <div class="adv">
+        <img src="../images/1920х600.png" alt="ads">
+    </div>
+
+    <div class="top_news">
+        <img src="../images/Rectangle 407.png" alt="top" class="top_new__image">
+        <h2 class="top_text">В Оренбургской области за сутки выявили 164 случая заражения covid-19</h2>
+    </div>
+
+    <div class="uzbekistan_news">
+        <div class="uzbekistan_news__container">
+            <div class="title">
+                <h2>НОВОСТИ УЗБЕКИСТАНА</h2>
+            </div>
+            <div class="content">
+                <div class="content_top">
+                    <div class="uzb_item">
+                        <div class="uzb_item__title">
+                            <a href="#"><h3>В Узбекистане вновь начали обновлять список красивых...</h3></a>
+                        </div>
+                        <div class="uzb_item__subtext">
+                            <a href="#"><h4>Cегодня</h4></a>
+                        </div>
+                    </div>
+                    <div class="uzb_item">
+                        <div class="uzb_item__title">
+                            <a href="#"><h3>В Узбекистане вновь начали обновлять список красивых...</h3></a>
+                        </div>
+                        <div class="uzb_item__subtext">
+                            <a href="#"><h4>Cегодня</h4></a>
+                        </div>
+                    </div>
+                    <div class="uzb_item">
+                        <div class="uzb_item__title">
+                            <a href="#"><h3>В Узбекистане вновь начали обновлять список красивых...</h3></a>
+                        </div>
+                        <div class="uzb_item__subtext">
+                            <a href="#"><h4>Cегодня</h4></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content_bottom">
+                    <div class="uzb_item">
+                        <div class="uzb_item__title">
+                            <a href="#"><h3>В Узбекистане вновь начали обновлять список красивых...</h3></a>
+                        </div>
+                        <div class="uzb_item__subtext">
+                            <a href="#"><h4>Cегодня</h4></a>
+                        </div>
+                    </div>
+                    <div class="uzb_item">
+                        <div class="uzb_item__title">
+                            <a href="#"><h3>В Узбекистане вновь начали обновлять список красивых...</h3></a>
+                        </div>
+                        <div class="uzb_item__subtext">
+                            <a href="#"><h4>Cегодня</h4></a>
+                        </div>
+                    </div>
+                    <div class="uzb_item">
+                        <div class="uzb_item__title">
+                            <a href="#"><h3>В Узбекистане вновь начали обновлять список красивых...</h3></a>
+                        </div>
+                        <div class="uzb_item__subtext">
+                            <a href="#"><h4>Cегодня</h4></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="world_news">
+        <div class="world_container">
+            <div class="title">
+                <h2>МИРОВЫЕ НОВОСТИ</h2>
+            </div>
+            <div class="world_content">
+                <div class="content__left">
+                    <div class="content_left__top">
+                        <div class="world__item">
+                            <div class="world_item__title">
+                                <a href="#"><h3>Львица напала на дрессировщика в Новосибирской области</h3></a>
+                            </div>
+                            <div class="world_item__subtitle">
+                                <h4>Львица напала на дрессировщика</h4>
+                            </div>
+                        </div>
+                        <div class="world__item">
+                            <div class="world_item__title">
+                                <a href="#"><h3>Львица напала на дрессировщика в Новосибирской области</h3></a>
+                            </div>
+                            <div class="world_item__subtitle">
+                                <h4>Львица напала на дрессировщика</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content_left__top">
+                        <div class="world__item">
+                            <div class="world_item__title">
+                                <a href="#"><h3>Львица напала на дрессировщика в Новосибирской области</h3></a>
+                            </div>
+                            <div class="world_item__subtitle">
+                                <h4>Львица напала на дрессировщика</h4>
+                            </div>
+                        </div>
+                        <div class="world__item">
+                            <div class="world_item__title">
+                                <a href="#"><h3>Львица напала на дрессировщика в Новосибирской области</h3></a>
+                            </div>
+                            <div class="world_item__subtitle">
+                                <h4>Львица напала на дрессировщика</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content__right">
+                    <div class="content_right__title">
+                        <a href="#"><h3>Львица напала на дрессировщика в Новосибирской области</h3></a>
+                    </div>
+                    <div class="content_right__subtitle">
+                        <h4>Львица напала на дрессировщика</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="recent_news">
+        <div class="recent__container">
+            <div class="title">
+                <h2>НЕДАВНИЕ НОВОСТИ</h2>
+            </div>
+            <div class="recent_line">
+                <div class="recent_item active"><button><h3><a href="#">Сегодня</a></h3></button></div>
+                <div class="recent_item"><button><h3><button href="#">Вчера</button></h3></button></div>
+                <div class="recent_item"><button><h3><button href="#">24 июня</button></h3></button></div>
+                <div class="recent_item"><button><h3><button href="#">23 июня</button></h3></button></div>
+                <div class="recent_item"><button><h3><button href="#">22 июня</button></h3></button></div>
+                <div class="recent_item"><button><h3><button href="#">21 июня</button></h3></button></div>
+                <div class="recent_item"><button><h3><button href="#">20 июня</button></h3></button></div>
+                <div class="recent_item"><button><h3><button href="#">19 июня</button></h3></button></div>
+                <div class="recent_item"><button><h3><button href="#">18 июня</button></h3></button></div>
+                <div class="recent_item"><button><h3><button href="#">17 июня</button></h3></button></div>
+            </div>
+            <div class="recent_content">
+                <div class="recent_content__item">
+                    <div class="recent__image">
+                        <img class="imgg" src="../images/Rectangle 433.png" alt="dada">
+                    </div>
+                    <div class="recent_text">
+                        <h2>Британские ученые опровергли один из физических законов</h2>
+                        <h3>А ещё диаграммы связей могут быть ограничены исключительно образом мышления. Значимость этих проблем настолько очевидна, что внедрение...</h3>
+                        <button class="look"><a href="#">Читать дальше</a></button>
+                    </div>
+                </div>
+                <div class="recent_content__item">
+                    <div class="recent__image">
+                        <img class="imgg" src="../images/Rectangle 433.png" alt="dada">
+                    </div>
+                    <div class="recent_text">
+                        <h2>Британские ученые опровергли один из физических законов</h2>
+                        <h3>А ещё диаграммы связей могут быть ограничены исключительно образом мышления. Значимость этих проблем настолько очевидна, что внедрение...</h3>
+                        <button class="look"><a href="#">Читать дальше</a></button>
+                    </div>
+                </div>
+                <div class="recent_content__item">
+                    <div class="recent__image">
+                        <img class="imgg" src="../images/Rectangle 433.png" alt="dada">
+                    </div>
+                    <div class="recent_text">
+                        <h2>Британские ученые опровергли один из физических законов</h2>
+                        <h3>А ещё диаграммы связей могут быть ограничены исключительно образом мышления. Значимость этих проблем настолько очевидна, что внедрение...</h3>
+                        <button class="look"><a href="#">Читать дальше</a></button>
+                    </div>
+                </div>
+                <div class="recent_content__item">
+                    <div class="recent__image">
+                        <img class="imgg" src="../images/Rectangle 433.png" alt="dada">
+                    </div>
+                    <div class="recent_text">
+                        <h2>Британские ученые опровергли один из физических законов</h2>
+                        <h3>А ещё диаграммы связей могут быть ограничены исключительно образом мышления. Значимость этих проблем настолько очевидна, что внедрение...</h3>
+                        <button class="look"><a href="#">Читать дальше</a></button>
+                    </div>
+                </div>
+                <div class="recent_content__item">
+                    <div class="recent__image">
+                        <img class="imgg" src="../images/Rectangle 433.png" alt="dada">
+                    </div>
+                    <div class="recent_text">
+                        <h2>Британские ученые опровергли один из физических законов</h2>
+                        <h3>А ещё диаграммы связей могут быть ограничены исключительно образом мышления. Значимость этих проблем настолько очевидна, что внедрение...</h3>
+                        <button class="look"><a href="#">Читать дальше</a></button>
+                    </div>
+                </div>
+                <div class="recent_content__item">
+                    <div class="recent__image">
+                        <img class="imgg" src="../images/Rectangle 433.png" alt="dada">
+                    </div>
+                    <div class="recent_text">
+                        <h2>Британские ученые опровергли один из физических законов</h2>
+                        <h3>А ещё диаграммы связей могут быть ограничены исключительно образом мышления. Значимость этих проблем настолько очевидна, что внедрение...</h3>
+                        <button class="look"><a href="#">Читать дальше</a></button>
+                    </div>
+                </div>
+                <div class="recent_content__item">
+                    <div class="recent__image">
+                        <img class="imgg" src="../images/Rectangle 433.png" alt="dada">
+                    </div>
+                    <div class="recent_text">
+                        <h2>Британские ученые опровергли один из физических законов</h2>
+                        <h3>А ещё диаграммы связей могут быть ограничены исключительно образом мышления. Значимость этих проблем настолько очевидна, что внедрение...</h3>
+                        <button class="look"><a href="#">Читать дальше</a></button>
+                    </div>
+                </div>
+                <div class="recent_content__item">
+                    <div class="recent__image">
+                        <img class="imgg" src="../images/Rectangle 433.png" alt="dada">
+                    </div>
+                    <div class="recent_text">
+                        <h2>Британские ученые опровергли один из физических законов</h2>
+                        <h3>А ещё диаграммы связей могут быть ограничены исключительно образом мышления. Значимость этих проблем настолько очевидна, что внедрение...</h3>
+                        <button class="look"><a href="#">Читать дальше</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="more">
+        <a href="#"><h3>Показать ещё v</h3></a>
+    </div>
+    <footer>
+        <div class="footer_container">
+            <div class="left_side"></div>
+            <div class="right_side">
+                <div class="top_cont">
+                    <div class="item">
+                        <div class="footer_right_elem_content">
+                            <a href="#">
+                                <h2>Разделы</h2>
+                            </a>
+                            <a href="#">
+                                <h3>Авторы</h3>
+                            </a>
+                            <a href="#">
+                                <h3>Реклама</h3>
+                            </a>
+                            <a href="#">
+                                <h3>Контакты</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item2">
+                        <div class="footer_right_elem_content">
+                            <h2>
+                                <strong>Пишите нам:</strong>
+                            </h2>
+                            <h3>
+                                По всем вопросам:
+                                <a href="#">
+                                    <strong>Mainpostwork@gmail.com</strong>
+                                </a>
+                            </h3>
+                            <h3>
+                                По поводу родкастов:
+                                <a href="#">
+                                    <strong>Mainpostwork@gmail.com</strong>
+                                </a>
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="item3">
+                        <div class="footer_third_item">
+                            <div class="footer_third_form_content">
+                                <h2 class="h2_right_foot">Подписка на бесплатную рассылку</h2>
+                                <form action="#" class="registration__form">
+                                    <input maxlength="25" type="text" placeholder="Email"/>
+                                    <button class="subscribe" href="#">
+                                        <a href="#">
+                                            <h4>Подписаться</h4>
+                                        </a>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="footer_down">
+                            <div class="footer_third_title">
+                                <h3>Мы в соц сетях:</h3>
+                            </div>
+                            <div class="footer_third__links">
+                                <a href="#"><img class="footer__link" src="../images/ic_telegram.svg" alt="teleg"/></a>
+                                <a href="#"><img class="footer__link" src="../images/ic_instagram.svg" alt="inst"/></a>
+                                <a href="#"><img class="footer__link" src="../images/ic_facebook.svg" alt="face"/></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bottom_cont">
+                    <div class="footer_bottom__content">
+                        <h3 class="logo_foot">
+                            © 2021 - 2022. Новостной сайт «Main post». Все права защищены
+                        </h3>
+                        <h3 class="logo_foot">
+                            Разработано командой «UX IT»
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        /* Close when someone clicks on the "x" symbol inside the overlay */
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+            document.body.style.overflowY = 'scroll'
+        }
+    </script>
+    <script src="../scripts/script.js"></script>
+</body>
+</html>
